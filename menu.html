@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+body {
+    background-color: lightblue;
+    
+
+}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width: 200px;
+	background-color : #f1f1f1;
+	border:1px solid #555;
+
+}
+li a{
+	display:block;
+	color: #000;
+	padding:8px 16px;
+	text-decoration: none;
+}
+li {
+	text-align: center;
+	border-bottom: 1px solid #555;
+}
+li:lastlchild{
+	border-bottom:none;
+}
+li a:hover:not(.active){
+	background-color: #555;
+	color : white;
+}
+</style>
+</head>
+<body>
+	<ul>
+		<li><a class="active " href="#HOME">Inicio</a></li>
+		<li><a href="#Noticias"> Noticias </a></li>
+		<li><a href="#Contatos"> Contatos</a></li>
+		<li><a href="#Sobre"> Sobre</a></li>
+	</ul>
+</body>
+</html>
